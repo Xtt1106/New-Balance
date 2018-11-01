@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+.shoes1{
+    padding-top: 28.3%;
+    height: 0;
+    width: 100%;
+    background: url(../img/wordl-cap-pc_01.jpg) center/cover;
+}
+.shoes2{
+    padding-top: 19.27%;
+    height: 0;
+    background: url(../img/wordl-cap-pc_02.jpg) center/cover;
+}
+.connet>div{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.connet>div a{
+    display: block;
+    position: relative;
+}
+.connet>div a img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    animation: dian 1s linear infinite;
+}
+@keyframes dian{
+    0%{
+        opacity: 0.2;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+.connet a.hid-btn{
+    position: absolute;
+    width: 32%;
+    height: 100%;
+    top: 0;
+    outline: none;
+}
+.connet .word-con1{
+    height: 111px;
+    background: url(../img/wordl-cap-pc_03.jpg) center/cover;
+}
+.connet .word-con1 a{
+    right: 15%;
+}
+.connet .word-con2 a{
+    height: 713px;
+    background-image: url(../img/wordl-cap-pc_04.jpg);
+}
+.connet .word-con2 a .dian1{
+    top: 33.5%;
+    left: 42.5%;
+}
+.connet .word-con2 a .dian2{
+    top: 57.5%;
+    left: 25%;
+}
+.connet .word-con3 a{
+    height: 783px;
+    background-image: url(../img/wordl-cap-pc_05.jpg);
+}
+.connet .word-con3 a .dian1{
+    top: 37.5%;
+    left: 59.5%;
+}
+.connet .word-con3 a .dian2{
+    top: 59.5%;
+    left: 72.1%;
+}
+.connet .word-con4{
+    height: 111px;
+    background: url(../img/wordl-cap-pc_06.jpg) center/cover;
+}
+.connet .word-con4 a{
+    left: 15%;
+}
+.connet .word-con5 a{
+    height: 709px;
+    background-image: url(../img/wordl-cap-pc_07.jpg);
+}
+.connet .word-con5 a .dian1{
+    top: 36.5%;
+    left: 16%;
+}
+.connet .word-con5 a .dian2{
+    top: 62.5%;
+    left: 35.1%;
+}
+.connet .word-con6 a{
+    height: 710px;
+    background-image: url(../img/wordl-cap-pc_08.jpg);
+}
+.connet .word-con6 a .dian1{
+    top: 31%;
+    left: 58.8%;
+}
+.connet .word-con6 a .dian2{
+    top: 63.5%;
+    left: 73.1%;
+}
+.connet .word-con7 a{
+    height: 709px;
+    background-image: url(../img/wordl-cap-pc_09.jpg);
+}
+.connet .word-con7 a .dian1{
+    top: 30%;
+    left: 42%;
+}
+.connet .word-con7 a .dian2{
+    top: 61.4%;
+    left: 27.5%;
+}
+.connet>div a{
+    background-position: center;
+    background-size: cover;
+}
+.sm-shoes{
+    width: 1341px;
+    margin: 80px auto 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sm-shoes span{
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 5px;
+    width: 330px;
+    height: 228px;
+    overflow: hidden;
+}
+.sm-shoes img{
+    width: 330px;
+    transition: 0.6s;
+}
+.sm-shoes span .mark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    background: #000;
+    opacity: 0;
+    transition: 0.5s;
+}
+.sm-shoes span:hover img{
+    transform: scale(1.2);
+}
+
+.back{
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.back a{
+    color: #e21836;
+    font-weight: 100;
+}
+.back a:hover{
+    color: #580915;
+}
+@media screen and (max-width: 1341px){
+    .sm-shoes{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1220px){
+    .connet>div{
+        width: 100%;
+    }
+    .connet>div{
+        width: 100%;
+        margin: 0;
+        position: relative;
+    }
+    .connet>div a:not(.hid-btn){
+        display: block;
+        height: 0 !important;
+    }
+    .connet>div a.hid-btn{
+        position: absolute;
+        width: 42%;
+        height: 100%;
+        top: 0;
+        outline: none;
+    }
+    .connet .word-con1{
+        height: 0;
+        padding-top: 9.25%;
+    }
+    .connet .word-con1 a{
+        right: 4%;
+    }
+    .connet .word-con2 a{
+        padding-top: 59.4%;
+        /* height: 0; */
+    }
+    .connet .word-con3 a{
+        padding-top: 65.25%;
+        /* height: 0; */
+    }
+    .connet .word-con4{
+        padding-top: 9.25%;
+        height: 0;
+    }
+    .connet .word-con4 a{
+        left: 4%;
+    }
+    .connet .word-con5 a{
+        padding-top: 59%;
+        /* height: 0; */
+    }
+    .connet .word-con6 a{
+        padding-top: 59.16%;
+        /* height: 0; */
+    }
+    .connet .word-con7 a{
+        padding-top: 59%;
+        /* height: 0; */
+    }
+}
+@media screen and (max-width: 768px){
+    .shoes1{
+        height: 0;
+        padding-top: 68.3%;
+        width: 100%;
+        background: url(../img/wordl-cap-app_01.jpg) center/cover;
+    }
+    .shoes2{
+        height: 0;
+        padding-top: 58.4%;
+        background: url(../img/wordl-cap-app_02.jpg) center/cover;
+    }
+    .connet .word-con1{
+        height: 0;
+        padding-top: 26.9%;
+        background: url(../img/wordl-cap-app_03.jpg) center/cover;
+    }
+    .connet .word-con1 a{
+        right: 4%;
+    }
+    .connet .word-con2 a{
+        padding-top: 139%;
+        /* height: 0; */
+        background-image: url(../img/wordl-cap-app_04.jpg);
+    }
+    .connet .word-con3 a{
+        padding-top: 158.3%;
+        /* height: 0; */
+        background-image: url(../img/wordl-cap-app_05.jpg);
+    }
+    .connet .word-con4{
+        padding-top: 26.9%;
+        height: 0;
+        background: url(../img/wordl-cap-app_06.jpg) center/cover;
+    }
+    .connet .word-con4 a{
+        left: 4%;
+    }
+    .connet .word-con5 a{
+        padding-top: 136.2%;
+        /* height: 0; */
+        background-image: url(../img/wordl-cap-app_07.jpg);
+    }
+    .connet .word-con6 a{
+        padding-top: 134%;
+        /* height: 0; */
+        background-image: url(../img/wordl-cap-app_08.jpg);
+    }
+    .connet .word-con7 a{
+        padding-top: 134.7%;
+        /* height: 0; */
+        background-image: url(../img/wordl-cap-app_09.jpg);
+    }
+    .sm-shoes{
+        padding-top: 137.7%;
+        height: 0;
+        width: 100%;
+        background: url(../img/wordl-cap-app_10.jpg) center/cover;
+    }
+    .sm-shoes span{
+        display: none;
+    }
+    .connet>div a img{
+        display: none;
+    }
+}
